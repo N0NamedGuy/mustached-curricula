@@ -46,18 +46,15 @@
         ul.navigation {
             position: absolute;
             margin-top: 0px;
-            right: 0px;
+            right: 10px;
             z-index: 9999;
         }
 
         ul.navigation li {
-            display: inline-block;
+            display: inline;
             background-color: #C47E00;
-            padding: 10px;
             border-radius: 10px;
-            margin-left: 5px;
-            margin-right: 5px;
-            box-shadow: 10px 10px 3px rgba(187, 189, 189, 0.5);
+            padding: 5px 5px;
         }
 
         ul.navigation li:hover {
@@ -65,18 +62,21 @@
         }
 
         ul.navigation li a {
+            vertical-align: middle;
             color: white;
             font-weight: bold;
             text-decoration: none;
+            padding: 10px 10px;
+            margin: 0;
         }
 
         ul.navigation li a:hover {
             color: white;
-            text-decoration: underline;
         }
 
         ul.navigation li img {
             margin-right: 5px;
+            vertical-align: bottom;
         }
 
         /* Control specific style */
