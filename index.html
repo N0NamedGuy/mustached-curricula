@@ -158,24 +158,39 @@
     <script type="text/javascript" src="js/jquery.emailSpamProtection.1.0.js"></script>
     
     <script type="text/javascript">
+        /*jslint browser: true */
+        /*global $: false */
+
         $(document).ready(function () {
             "use strict";
             var slides = $("div#slideshow").cycle({
                 fx: "fade",
                 timeout: 10000
-            });
+            }),
+                control = $("ul.control a[href='#toggle']");
 
             $("ul.navigation li a").click(function () {
                 var id = "div" + $(this).attr("href") + "_";
 
-                slides.cycle("pause").children("div#slideshow div:not(" + id + ")").css("opacity", 0).fadeOut();
+                slides.cycle("pause")
+                    .children("div#slideshow div:not(" + id + ")")
+                    .css("opacity", 0)
+                    .fadeOut();
+
                 $(id).css("opacity", 1).fadeIn();
+                control.text("Play");
 
                 return false;
             });
 
-            $("ul.control a").click(function () {
-                $("div#slideshow").cycle($(this).attr("href").substr(1));
+            $("ul.control a[href='#toggle']").click(function () {
+                var txt = $(this).text();
+                if (txt === "Pause") {
+                    $(this).text("Play");
+                } else {
+                    $(this).text("Pause");
+                }
+                slides.cycle('toggle');
 
                 return false;
             });
@@ -196,7 +211,7 @@
     </ul>
     
     <ul class="control">
-        <li><a href="#toggle">Toggle Auto-Play</a></li>
+        <li><a href="#toggle">Pause</a></li>
     </ul>
     
     <div id="slideshow">
