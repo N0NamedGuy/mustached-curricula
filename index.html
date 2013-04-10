@@ -1,0 +1,401 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>   
+    <title>N0_Named_Guy's Web Corner</title>
+    <!-- http://colorschemedesigner.com/#0D21TnfIIzFzT -->
+    <style>
+
+        .primary-1 { background-color: #FFA400; }
+        .primary-2 { background-color: #D59523; }
+        .primary-3 { background-color: #C47E00; }
+        .primary-4 { background-color: #FFB32A; }
+        .primary-5 { background-color: #FFBF4C; }
+
+        /* Main style definitions */
+        body {
+            font-family: sans-serif;
+            background-color: #FAFAFA;
+            height: 100%;
+        }
+
+        h1 {
+            background-color: #FFA400;
+            padding: 15px;
+            border-radius: 15px;
+            color: #FAFAFA;
+        }
+
+        /* Main anchor style definitions */
+        a {
+            color: #D59523;
+        }
+
+        a:hover {
+            color: #FFA400;
+        }
+
+        a:visited {
+            color: gray;
+        }
+
+        /* Navigation menu */
+        ul.navigation {
+            position: absolute;
+            margin-top: 0px;
+            right: 0px;
+            z-index: 9999;
+        }
+
+        ul.navigation li {
+            display: inline-block;
+            background-color: #C47E00;
+            padding: 10px;
+            border-radius: 10px;
+            margin-left: 5px;
+            margin-right: 5px;
+            box-shadow: 10px 10px 3px rgba(187, 189, 189, 0.5);
+        }
+
+        ul.navigation li:hover {
+            background-color: #D59523;
+        }
+
+        ul.navigation li a {
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        ul.navigation li a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+
+        ul.navigation li img {
+            margin-right: 5px;
+        }
+
+        /* Control specific style */
+        ul.control {
+            position: fixed;
+            margin: auto;
+            right: 0px;
+            bottom: 0px;
+            z-index: 1000;
+        }
+
+        ul.control li {
+            display: inline-block;
+            background-color: #C47E00;
+            padding: 5px;
+            border-radius: 10px;
+            margin: 5px;
+            box-shadow: 4px 4px 3px rgba(187, 189, 189, 0.5);
+        }
+
+        ul.control li:hover {
+            background-color: #D59523;
+        }
+
+        ul.control li a {
+            color: white;
+            font-size: 12px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        ul.control li a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+
+        /* Slideshow specific */
+        div#slideshow {
+            display: block;
+            height: 100%;
+
+            border-radius: 15px;
+            background-color: #F0F0F0;
+
+            margin: 15px 15px;
+
+            overflow-x: hidden;
+        }
+
+        div#slideshow div {
+            width: 100%;
+        }
+
+        div#slideshow h2 {
+            margin-top: 0px;
+            background-color: #FFBF4C;
+            border-radius: 15px 15px 0px 0px;
+            color: #FAFAFA;
+            padding: 5px;
+            margin-right: -5px;
+        }
+
+        /* Image specific */
+        img.profile-pic {
+            vertical-align: top;
+            float: left;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        /* List specific */
+        li {
+            list-style-type: none;
+        }
+    </style>
+    
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+    <script type="text/javascript" src="js/jquery.emailSpamProtection.1.0.js"></script>
+    
+    <script type="text/javascript">
+        $(document).ready(function () {
+            "use strict";
+            var slides = $("div#slideshow").cycle({
+                fx: "fade",
+                timeout: 10000
+            });
+
+            $("ul.navigation li a").click(function () {
+                var id = "div" + $(this).attr("href") + "_";
+
+                slides.cycle("pause").children("div#slideshow div:not(" + id + ")").css("opacity", 0).fadeOut();
+                $(id).css("opacity", 1).fadeIn();
+
+                return false;
+            });
+
+            $("ul.control a").click(function () {
+                $("div#slideshow").cycle($(this).attr("href").substr(1));
+
+                return false;
+            });
+
+            $("body").emailSpamProtection("email");
+        });
+    </script>
+</head>
+<body>
+    <h1>David Serrano</h1>
+    
+    <ul class="navigation">
+        <li><a href="#bio"><img src="img/bio.png"/>Bio</a></li>
+        <li><a href="#contact"><img src="img/contact.png"/>Contact</a></li>
+        <li><a href="#social"><img src="img/social.png"/>Social</a></li>
+        <li><a href="#portfolio"><img src="img/portfolio.png"/>Portfolio</a></li>
+        <li><a href="#awards"><img src="img/awards.png"/>Awards</a></li>
+    </ul>
+    
+    <ul class="control">
+        <li><a href="#toggle">Toggle Auto-Play</a></li>
+    </ul>
+    
+    <div id="slideshow">
+
+        <div id="bio_">
+            <a id="bio"></a>
+            <h2>Short Bio</h2>            
+            
+            <img class="profile-pic" alt="David Serrano's profile picture"
+                src="img/david.jpg"/>
+            
+            <p>Hi there! My name is David Serrano, and I am born in 1990. In the Internet I am know as
+            the <b>N0_Named_Guy</b>. I am computer science student, taking a masters at the moment. I've graduated from
+            <a target="_blank" href="http://www.fct.unl.pt">FCT-UNL</a> and I hold a bachelor at computer science.</p>
+        
+            <p>I love computers and videogames. Because of these passions, I love to develop videogames.</p>
+        
+        </div>   
+
+        <div id="contact_">
+            <a id="contacts"></a>
+            <h2>Contact</h2>
+            <ul>
+                <li>
+                    <h3>Personal e-mail: 
+                    <span class="email">david [dot] ma [dot] serrano [at] gmail [dot] com</span></h3>
+                </li>
+                
+                <li>
+                    <h3>College e-mail: 
+                    <span class="email">d [dot] serrano [at] campus [dot] fct [dot] unl [dot] pt</span></h3>
+                </li>
+                
+                <li>
+                    <h3>Secondary e-mail: 
+                    <span class="email">david [dot] nonamedguy [at] gmail [dot] com</span></h3>
+                </li>
+                
+                <li>
+                   <h3>Old e-mail: 
+                   <span class="email">david [at] tbm [dot] ath [dot] cx</span></h3>
+                </li>
+            </ul>
+        </div>
+
+        <div id="social_">
+            <a id="social"></a>
+            <h2>Social</h2>
+            <ul>
+                <li>
+                    <h3>LinkedIn: <a target="_blank" href="http://pt.linkedin.com/pub/david-serrano/55/660/842">David Serrano</a></h3>
+                </li>
+                <li>
+                    <h3>Facebook: <a target="_blank" href="https://www.facebook.com/david.ma.serrano">david.ma.serrano</a></h3>
+                </li>
+                <li>
+                    <h3>Twitter: <a target="_blank" href="https://www.twitter.com/n0namedguy">@n0namedguy</a></h3>
+                </li>
+                <li>
+                    <h3>Steam: <a target="_blank"  href="https://steamcommunity.com/id/n0namedguy/">N0_Named_Guy</a></h3>
+                </li>
+                <li>
+                    <h3>Reddit: <a  target="_blank" href="http://www.reddit.com/u/N0_Named_Guy">/u/N0_Named_Guy</a></h3>
+                </li>
+                <li>
+                    <h3>GitHub: <a target="_blank" href="https://github.com/N0NamedGuy">N0NamedGuy</a></h3>
+                </li>
+                <li>
+                    <h3>Bitbucket: <a target="_blank" href="https://bitbucket.org/N0_Named_Guy">N0_Named_Guy</a></h3>
+                </li>
+            </ul>
+        </div>
+        
+        <div id="portfolio_"> 
+            <a id="portfolio"></a>
+            <h2>Portfolio</h2>
+            <ul>
+                <li>
+                    <h3><a href="http://expo2013.fct.unl.pt/">Expo FCT 2013</a> (February 2013 - April 2013)</h3>
+                    <p>
+                        I was in the <a href="http://eventos.fct.unl.pt/expofct/pages/app-expo-fct">official</a>
+                        Expo FCT 2013 mobile web application development team.
+                    </p>
+                </li>
+                
+                <li>
+                    <h3><a href="/ipm">Kinect TV</a> (August 2012 - February 2013)</h3>
+                    <p>
+                        Research on an interface that will enable people to use
+                        their television without resorting to any kind of physical remote controls.
+                    </p>
+                </li>
+            
+                <li>
+                    <h3><a href="/mousetrap">Mouse Trap</a> (August 2011)</h3>
+                    <p>
+                        A game that I made in 48 hours for a contest called
+                        <a target="_blank" href="http://www.ludumdare.com/compo/">Ludum Dare</a>. It was based on the
+                        <a href="amaze">aMazing engine</a>, listed below.
+                        The game's submission page can be viewed
+                        <a target="_blank" href="http://www.ludumdare.com/compo/ludum-dare-21/?action=preview&amp;uid=5344">here</a>. 
+                    </p>
+                </li>
+                
+                                <li>
+                    <h3><a href="/amaze">aMazing</a> (June 2011 - August 2011)</h3>
+                    <p>
+                        Combining my passsion for building games, and the desire to learn the wonders of HTML5 and the canvas
+                        element, I set out to make this tile engine. It features:
+                    </p>
+                    
+                    <ul>
+                        <li>Level editor</li>
+                        <li>Keyboard, mouse and touch control support</li>
+                        <li>Follow camera and free camera (that can be zoomed in and out)</li>
+                        <li>Animated tiles and sprites</li>
+                        <li>Collision detection</li>
+                        <li>Level loading and switching</li>
+                        <li>Triggers scripting support</li>
+                        <li>Optimized tile and sprite drawing (only draws what is needed)</li>
+                    </ul>
+                
+                </li>
+                
+                <li>
+                    <h3><a href="/nossop">Nosso Para&iacute;so Residential Website</a> (August 2010)</h3>
+                    <p>
+                        Based of the <a href="guinot">Auto Guinot website</a>, I made a site for a residential
+                        called Nosso Para&iacute;so, located in the sunny Algarve. During my stay, I proposed the
+                        residential owners to build them a site. I took the Auto Guinot's code base,
+                        and over the week I stayed there, I made them the website. It is (or at least was) hosted
+                        at <a href="http://www.residencialnossoparaiso.com">www.residencialnossoparaiso.com</a>.
+                    </p>
+                </li>
+                
+                <li>
+                    <h3><a href="/guinot">Auto Guinot Stand Website</a> (June 2008 - May 2009)</h3>
+                    <p>
+                        A website I made on my free time for an auto stand. This job paid for my Nintendo Wii.
+                        It was originally hosted at <a href="http://www.autoguinot.pt">www.autoguinot.pt</a>, but
+                        the stand owners stopped caring about the website, so the website is down at the moment.
+                    </p>
+                </li>
+                
+                
+            </ul>
+        </div>
+
+        <div id="awards_">    
+            <a id="awards"></a>
+            <h2>Awards and Achievements</h2>
+            <ul>
+                <li>
+                    <h3><i>Codebits 2007</i> Winner (Creativity Category)</h3>
+                    <p>Lisbon, Portugal, 2007</p>
+                    <ul>
+                        <li><a href="https://www.youtube.com/watch?v=Tvj0HhOg5XI">Presentation (Youtube Video)</a></li>
+                        <li><a href="http://blogues.publico.pt/tecnopolis/2008/11/10/sapo-codebits/">Newspaper article</a></li>
+                    </ul>
+                </li>
+                
+                <li>
+                    <h3>Honorable Mention at <i>CJCI</i> (Concurso Jovens Cientistas e Investigadores)</h3>
+                    <p>Lisbon, Portugal, 2008</p>
+                    <ul>
+                        <li><a href="http://www.fjuventude.pt/jcientistas2008/static/jc2008_premios.pdf">Contest Classifications</a></li>
+                    </ul>
+                </li>
+                
+                <li>
+                    <h3>Third Place, on the team <i>CaparicaTuxz</i> at <i>MIUP'11</i> (Maratonas Inter-Universitárias de Portugal)</h3>
+                    <p>Faro, Portugal, 2011</p>
+                </li>
+                
+                <li>
+                    <h3><i>SWERC</i> (Southwestern Europe Regional Contest) contestant, on the team <i>CaparicaTuxz</i></h3>
+                    <p>Madrid, Spain, 2011</p>
+                    <ul>
+                        <li><a href="http://pc.fdi.ucm.es/swerc/Standings.html">Classifcations</a></li>
+                    </ul>
+                </li>
+                
+                <li>
+                    <h3>Bronze Medal (fifth place), on the team <i>AsymptoticFunctor</i> at <i>MIUP'12</i> (Maratonas Inter-Universitárias de Portugal)</h3>
+                    <p>Porto, Portugal, 2012</p>
+                    <ul>
+                        <li><a href="http://miup2012.dcc.fc.up.pt/sessao/classification.html ">Classifcations</a></li>
+                    </ul>
+                </li>
+                
+                <li>
+                    <h3><i>SWERC</i> (Southwestern Europe Regional Contest) contestant, on the team <i>AsymptoticFunctor</i></h3>
+                    <p>Valencia, Portugal, 2012</p>
+                    <i>It was a very disappointing run...</i>
+                    <ul>
+                        <li><a href="http://swerc.dsic.upv.es/resultados/public/index.html">Classifcations</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+     
+</body>
+</html>
