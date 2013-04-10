@@ -15,7 +15,13 @@
 	$.fn.emailSpamProtection = function(className) {
 		return $(this).find("." + className).each(function() {
 			var $this = $(this);
-			var s = ($this.text().replace(" [at] ", "&#64;")).split(" [dot] ").join(".");
+			var s = (
+                $this
+                    .text()
+                    .replace(" [at] ", "&#64;")
+                ).split(" [dot] ")
+                .join(".")
+                .trim();
 			$this.html("<a href=\"mailto:" + s + "\">" + s + "</a>");
 		});
 	};
