@@ -6,8 +6,8 @@
     <meta name="description" content="David Serrano Personal Webpage">
     <meta name="keywords" content="David Serrano,N0_Named_Guy,N0NamedGuy">
     <meta name="author" content="David Serrano">
-    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
     <title>David Serrano's Personal Webpage</title>
     <!-- http://colorschemedesigner.com/#0D21TnfIIzFzT -->
     <style type="text/css">
@@ -31,20 +31,32 @@
     </script>
 </head>
 <body data-spy="scroll" data-target=".navbar">
-    <div class="container">
-        <div class="navbar navbar-fixed-top">
-            <div class="navbar-inner">
-                <div class="class brand">David Serrano</div>
 
-                <ul class="nav nav-pills">
-                    <li><a href="#bio"><i class="icon-user"></i>Bio</a></li>
-                    <li><a href="#contact"><i class="icon-envelope"></i>Contact</a></li>
-                    <li><a href="#social"><i class="icon-star"></i>Social</a></li>
-                    <li><a href="#portfolio"><i class="icon-briefcase"></i>Portfolio</a></li>
-                    <li><a href="#awards"><i class="icon-certificate"></i>Awards</a></li>
-                </ul>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="content">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+
+                <a href="#bio" class="class brand">David Serrano</a>
+
+                <div class="nav-collapse collapse">
+                    <ul class="nav nav-pills">
+                        <li><a href="#bio"><i class="icon-user"></i>Bio</a></li>
+                        <li><a href="#contact"><i class="icon-envelope"></i>Contact</a></li>
+                        <li><a href="#social"><i class="icon-star"></i>Social</a></li>
+                        <li><a href="#portfolio"><i class="icon-briefcase"></i>Portfolio</a></li>
+                        <li><a href="#awards"><i class="icon-certificate"></i>Awards</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
+    </div>
+
+    <div class="container">
     
         <section id="bio">
             <div class="hero-unit">
@@ -56,9 +68,9 @@
                             src="img/david.jpg"/>
                     </div>
                     <div class="span7">
-                        <h1>Who am I?</h1>
+                        <h2>Who am I?</h2>
 
-                        <p>Hi there! My name is David Serrano, and I am born in 1990, and
+                        <p>Hi there! My name is David Serrano, born in 1990, and
                         I am a man who does the things he loves with great passion.</p>
 
                         <p>My greatest objective is to develop the best thing yet.
@@ -361,6 +373,5 @@
         
     </div>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap-responsive.min.js"></script>
 </body>
 </html>
