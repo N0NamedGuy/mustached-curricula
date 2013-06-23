@@ -6,162 +6,19 @@
     <meta name="description" content="David Serrano Personal Webpage">
     <meta name="keywords" content="David Serrano,N0_Named_Guy,N0NamedGuy">
     <meta name="author" content="David Serrano">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <title>David Serrano's Personal Webpage</title>
     <!-- http://colorschemedesigner.com/#0D21TnfIIzFzT -->
-    <style>
-
-        .primary-1 { background-color: #FFA400; }
-        .primary-2 { background-color: #D59523; }
-        .primary-3 { background-color: #C47E00; }
-        .primary-4 { background-color: #FFB32A; }
-        .primary-5 { background-color: #FFBF4C; }
-
-        /* Main style definitions */
+    <style type="text/css">
         body {
-            font-family: sans-serif;
-            background-color: #FAFAFA;
-            height: 100%;
-        }
-
-        h1 {
-            background-color: #FFA400;
-            padding: 15px;
-            border-radius: 15px;
-            color: #FAFAFA;
-        }
-
-        /* Main anchor style definitions */
-        a {
-            color: #D59523;
-        }
-
-        a:hover {
-            color: #FFA400;
-        }
-
-        a:visited {
-            color: gray;
-        }
-
-        /* Navigation menu */
-        ul.navigation {
-            position: absolute;
-            margin-top: 0px;
-            right: 10px;
-            z-index: 9999;
-        }
-
-        ul.navigation li {
-            display: inline;
-            background-color: #C47E00;
-            border-radius: 10px;
-            padding: 5px 5px;
-        }
-
-        ul.navigation li:hover {
-            background-color: #D59523;
-        }
-
-        ul.navigation li a {
-            vertical-align: middle;
-            color: white;
-            font-weight: bold;
-            text-decoration: none;
-            padding: 10px 10px;
-            margin: 0;
-        }
-
-        ul.navigation li a:hover {
-            color: white;
-        }
-
-        ul.navigation li img {
-            margin-right: 5px;
-            vertical-align: bottom;
-        }
-
-        /* Control specific style */
-        ul.control {
-            position: fixed;
-            margin: auto;
-            right: 0px;
-            bottom: 0px;
-            z-index: 1000;
-        }
-
-        ul.control li {
-            display: inline-block;
-            background-color: #C47E00;
-            padding: 5px;
-            border-radius: 10px;
-            margin: 5px;
-            box-shadow: 4px 4px 3px rgba(187, 189, 189, 0.5);
-        }
-
-        ul.control li:hover {
-            background-color: #D59523;
-        }
-
-        ul.control li a {
-            color: white;
-            font-size: 12px;
-            font-weight: bold;
-            text-decoration: none;
-        }
-
-        ul.control li a:hover {
-            color: white;
-            text-decoration: underline;
-        }
-
-        /* Slideshow specific */
-        div#slideshow {
-            display: block;
-            height: 100%;
-
-            border-radius: 15px;
-            background-color: #F0F0F0;
-
-            margin: 15px 15px;
-
-            overflow-x: hidden;
-
-        }
-
-        div#slideshow div {
-            width: 100%;
-        }
-
-        div#slideshow div p {
-            padding: 5px;
-        }
-
-        div#slideshow h2 {
-            margin-top: 0px;
-            background-color: #FFBF4C;
-            border-radius: 15px 15px 0px 0px;
-            color: #FAFAFA;
-            padding: 5px;
-            margin-right: -5px;
-        }
-
-        /* Image specific */
-        img.profile-pic {
-            vertical-align: top;
-            float: left;
-            margin-right: 10px;
-            margin-bottom: 10px;
-        }
-
-        /* List specific */
-        li {
-            list-style-type: none;
+            padding-top: 40px
         }
     </style>
     
-    <script type="text/javascript" src="/home/js/jquery-1.8.3.min.js"></script>
-    <script type="text/javascript" src="/home/js/jquery.cycle.all.js"></script>
-    <script type="text/javascript" src="/home/js/jquery.emailSpamProtection.1.0.js"></script>
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+    <script type="text/javascript" src="js/jquery.emailSpamProtection.1.0.js"></script>
     
     <script type="text/javascript">
         /*jslint browser: true */
@@ -169,80 +26,60 @@
 
         $(document).ready(function () {
             "use strict";
-            var slides = $("div#slideshow").cycle({
-                fx: "fade",
-                timeout: 10000
-            }),
-                control = $("ul.control a[href='#toggle']");
-
-            $("ul.navigation li a").click(function () {
-                var id = "div" + $(this).attr("href") + "_";
-
-                slides.cycle("pause")
-                    .children("div#slideshow div:not(" + id + ")")
-                    .css("opacity", 0)
-                    .fadeOut();
-
-                $(id).css("opacity", 1).fadeIn();
-                control.text("Play");
-
-                return false;
-            });
-
-            $("ul.control a[href='#toggle']").click(function () {
-                var txt = $(this).text();
-                if (txt === "Pause") {
-                    $(this).text("Play");
-                } else {
-                    $(this).text("Pause");
-                }
-                slides.cycle('toggle');
-
-                return false;
-            });
-
             $("body").emailSpamProtection("email");
         });
     </script>
 </head>
-<body>
-    <h1>David Serrano</h1>
-    
-    <ul class="navigation">
-        <li><a href="#bio"><img src="/home/img/bio.png"/>Bio</a></li>
-        <li><a href="#contact"><img src="/home/img/contact.png"/>Contact</a></li>
-        <li><a href="#social"><img src="/home/img/social.png"/>Social</a></li>
-        <li><a href="#portfolio"><img src="/home/img/portfolio.png"/>Portfolio</a></li>
-        <li><a href="#awards"><img src="/home/img/awards.png"/>Awards</a></li>
-    </ul>
-    
-    <ul class="control">
-        <li><a href="#toggle">Pause</a></li>
-    </ul>
-    
-    <div id="slideshow">
+<body data-spy="scroll" data-target=".navbar">
+    <div class="container">
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="class brand">David Serrano</div>
 
-        <div id="bio_">
-            <a id="bio"></a>
-            <h2>Short Bio</h2>            
-            
-            <img class="profile-pic" alt="David Serrano's profile picture"
-                src="/home/img/david.jpg"/>
-            
-            <p>Hi there! My name is David Serrano, and I am born in 1990. In
-            the Internet I am know as the <b>N0_Named_Guy</b>. I am computer
-            science student, taking a masters at the moment. I've graduated
-            from <a target="_blank" href="http://www.fct.unl.pt">FCT-UNL</a>
-            and I hold a bachelor at computer science.</p>
-        
-            <p>I love computers and videogames. Because of these passions, I
-            love to develop videogames.</p>
-        
-        </div>   
+                <ul class="nav nav-pills">
+                    <li><a href="#bio"><i class="icon-user"></i>Bio</a></li>
+                    <li><a href="#contact"><i class="icon-envelope"></i>Contact</a></li>
+                    <li><a href="#social"><i class="icon-star"></i>Social</a></li>
+                    <li><a href="#portfolio"><i class="icon-briefcase"></i>Portfolio</a></li>
+                    <li><a href="#awards"><i class="icon-certificate"></i>Awards</a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <section id="bio">
+            <div class="hero-unit">
+           
+                <div class="row-fluid">
+                    <div class="span5">
+                        <img class="img-polaroid img-circle profile-pic"
+                            alt="David Serrano's profile picture"
+                            src="img/david.jpg"/>
+                    </div>
+                    <div class="span7">
+                        <h1>Who am I?</h1>
 
-        <div id="contact_">
-            <a id="contacts"></a>
-            <h2>Contact</h2>
+                        <p>Hi there! My name is David Serrano, and I am born in 1990, and
+                        I am a man who does the things he loves with great passion.</p>
+
+                        <p>My greatest objective is to develop the best thing yet.
+                        Either be it a videogame, a web-site, a television set interface,
+                        the best web service.</p>
+                        
+                        <p>In the Internet I am know as the <b>N0_Named_Guy</b>. I am
+                        computer science student, taking a masters at the moment.
+                        I've graduated from <a target="_blank"
+                        href="http://www.fct.unl.pt">FCT-UNL</a>
+                        and I hold a bachelor at computer science.</p>
+                    </div>
+                </div> 
+            </div>
+        
+        </section>   
+
+        <section id="contact">
+            <div class="page-header">
+                <h2>Contact</h2>
+            </div>
             <ul>
                 <li>
                     <h3>Personal e-mail: 
@@ -272,11 +109,12 @@
                     </span></h3>
                 </li>
             </ul>
-        </div>
+        </section>
 
-        <div id="social_">
-            <a id="social"></a>
-            <h2>Social</h2>
+        <section id="social">
+            <div class="page-header">
+                <h2>Social</h2>
+            </div>
             <ul>
                 <li>
                     <h3>LinkedIn:
@@ -328,11 +166,12 @@
                     </a></h3>
                 </li>
             </ul>
-        </div>
+        </section>
         
-        <div id="portfolio_"> 
-            <a id="portfolio"></a>
-            <h2>Portfolio</h2>
+        <section id="portfolio"> 
+            <div class="page-header">
+                <h2>Portfolio</h2>
+            </div>
             <ul>
                 <li>
                     <h3>
@@ -390,6 +229,22 @@
                         element, I set out to make this tile engine.
                     </p>
                 </li>
+
+                <li>
+                    <h3>
+                        <a href="/thief">The Thief</a>
+                        (March 2011 - June 2011)
+                    </h3>
+                    <p>
+                        This game consists on a thief who whishes to steal
+                        treasures. He must face many perils on his either either be
+                        it: guards, other thiefs, stray bullets and even lava!
+
+                        This was a PCM (Multimedia Content Producition)
+                        assignemnt while I was taking the Computer Science bachelor,
+                        at <a href=http://fct.unl.pt/">FCT/UNL</a>.
+                    </p>
+                </li>
                 
                 <li>
                     <h3>
@@ -433,11 +288,12 @@
                 
                 
             </ul>
-        </div>
+        </section>
 
-        <div id="awards_">    
-            <a id="awards"></a>
-            <h2>Awards and Achievements</h2>
+        <section id="awards">    
+            <div class="page-header">
+                <h2>Awards and Achievements</h2>
+            </div>
             <ul>
                 <li>
                     <h3><i>Codebits 2007</i> Winner (Creativity Category)</h3>
@@ -501,9 +357,10 @@
                     </a></li></ul>
                 </li>
             </ul>
-        </div>
+        </section>
         
     </div>
-     
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-responsive.min.js"></script>
 </body>
 </html>
