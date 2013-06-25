@@ -6,9 +6,11 @@
     <meta name="description" content="David Serrano Personal Webpage">
     <meta name="keywords" content="David Serrano,N0_Named_Guy,N0NamedGuy">
     <meta name="author" content="David Serrano">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>David Serrano's Personal Webpage</title>
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- http://colorschemedesigner.com/#0D21TnfIIzFzT -->
     <style type="text/css">
         body {
@@ -20,7 +22,7 @@
     <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
     <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
     <script type="text/javascript" src="js/jquery.emailSpamProtection.1.0.js"></script>
-    
+    <script type="text/javascript" src="js/holder.js"></script>
     <script type="text/javascript">
         /*jslint browser: true */
         /*global $: false */
@@ -93,90 +95,133 @@
             <div class="page-header">
                 <h2>Contact</h2>
             </div>
-            <ul>
-                <li>
-                    <h3>Personal e-mail: 
+            <dl class="dl-horizontal">
+                <dt><b>Personal e-mail:</b></dt>
+                <dd>
                     <span class="email">
                         david [dot] ma [dot] serrano [at] gmail [dot] com
                     </span></h3>
-                </li>
+                </dd>
                 
-                <li>
-                    <h3>College e-mail: 
+                <dt><b>College e-mail:</b></dt>
+                <dd>
                     <span class="email">
                         d [dot] serrano [at] campus [dot] fct [dot] unl [dot] pt
                     </span></h3>
-                </li>
+                </dd>
                 
-                <li>
-                    <h3>Secondary e-mail: 
+                <dt><b>Secondary e-mail:</b></dt>
+                <dd>
                     <span class="email">
                         david [dot] nonamedguy [at] gmail [dot] com
                     </span></h3>
-                </li>
+                </dd>
                 
-                <li>
-                    <h3>Old e-mail: 
+                <dt><b>Old e-mail:</b></dt> 
+                <dd>
                     <span class="email">
                         david [at] tbm [dot] ath [dot] cx
                     </span></h3>
-                </li>
-            </ul>
+                </dd>
+            </dl>
         </section>
 
         <section id="social">
             <div class="page-header">
                 <h2>Social</h2>
             </div>
-            <ul>
-                <li>
-                    <h3>LinkedIn:
-                        <a target="_blank"
-                            href="https://linkedin.com/pub/david-serrano/55/660/842">
-                            David Serrano
-                    </a></h3>
+            <ul class="media-list">
+                <li class="media">
+                    <a class="pull-left"
+                        target="_blank"
+                        href="https://linkedin.com/pub/david-serrano/55/660/842">
+                        <img class="media-object" src="img/linkedin.png">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">David Serrano</h4>
+                    </div>
+                    My professional profile on LinkedIn. Add me if you&apos;re
+                    interessed in getting in touch with me, on a professional
+                    manner.
                 </li>
-                <li>
-                    <h3>Facebook:
-                        <a target="_blank"
-                            href="https://www.facebook.com/david.ma.serrano">
-                            david.ma.serrano
-                    </a></h3>
+
+                <li class="media">
+                    <a class="pull-left"
+                        target="_blank"
+                        href="https://www.facebook.com/david.ma.serrano">
+                        <img class="media-object" src="img/facebook.png">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">david.ma.serrano</h4>
+                    </div>
+                    My personal Facebook. This is where I share my personal
+                    interests and where I connect to those who are dear to me.
                 </li>
-                <li>
-                    <h3>Twitter:
-                        <a target="_blank"
-                            href="https://www.twitter.com/n0namedguy">
-                            @n0namedguy
-                    </a></h3>
+
+                <li class="media">
+                    <a class="pull-left" 
+                        target="_blank"
+                        href="https://www.twitter.com/n0namedguy">
+                        <img class="media-object" src="img/twitter.png">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">@n0namedguy</h4>
+                    </div>
+                    I used to post a lot of sutff on Twitter, namely
+                    my personal project developments, and some silly stuff.
+                    Nowadays I just keep it there as another way to contact
+                    me.
                 </li>
-                <li>
-                    <h3>Steam:
-                        <a target="_blank"
-                            href="https://steamcommunity.com/id/n0namedguy/">
-                            N0_Named_Guy
-                    </a></h3>
+
+                <li class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="img/steam.png">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">N0_Named_Guy</h4>
+                    </div>
+                    One of my favourite past time activities is playing
+                    videogames. If you want to challenge me to play anything
+                    or to compare any scores and/or achievement progresses,
+                    feel free to so.
                 </li>
-                <li>
-                    <h3>Reddit:
-                        <a target="_blank"
-                            href="http://www.reddit.com/u/N0_Named_Guy">
-                            /u/N0_Named_Guy
-                    </a></h3>
+
+                <li class="media">
+                    <a class="pull-left" href="http://www.reddit.com/u/N0_Named_Guy">
+                        <img class="media-object" src="img/reddit.png">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">/u/N0_Named_Guy</h4>
+                    </div>
+                    I love to spend time browsing reddit, and as such, I sometimes
+                    post and comment on some tech related subreddits. If you
+                    want, you may add me as a reddit mate.
                 </li>
-                <li>
-                    <h3>GitHub:
-                        <a target="_blank"
-                            href="https://github.com/N0NamedGuy">
-                            N0NamedGuy
-                    </a></h3>
+
+                <li class="media">
+                    <a class="pull-left" href="https://github.com/N0NamedGuy">
+                        <img class="media-object" src="img/github.png">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">N0NamedGuy</h4>
+                    </div>
+                    From time to time, I write code for leisure or to solve
+                    immediate problems I have. Most of it ends up
+                    on one of my GitHub repositories. Feel free to fork me.
                 </li>
-                <li>
-                    <h3>Bitbucket:
-                        <a target="_blank"
-                            href="https://bitbucket.org/N0_Named_Guy">
-                            N0_Named_Guy
-                    </a></h3>
+
+                <li class="media">
+                    <a class="pull-left" href="https://bitbucket.org/N0_Named_Guy">
+                        <img class="media-object" src="img/bitbucket.png">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">N0_Named_Guy</h4>
+                    </div>
+                    I mostly use Bitbucket for private projects, with the exception
+                    of the <a target="_blank"
+                        href="https://bitbucket.org/N0_Named_Guy/potato">Potato
+                    </a> project (it started as a private repository, that was
+                    later made public).
                 </li>
             </ul>
         </section>
