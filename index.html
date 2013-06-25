@@ -43,13 +43,16 @@
     </style>
     <style type="text/css" media="print">
         @page {
-            margin: 2cm 1.5cm;
+            margin: 2cm, 1.5cm;
+            size: portrait;
         }
         @media print
         {
             .noprint {
                 display: none;
             }
+
+            .email a:after,
             a.no-print-link:after {
                 content: "" !important;
             }
@@ -58,6 +61,9 @@
             }
             .pagebreak {
                 page-break-before: always;
+            }
+            .pageheader h2 {
+                page-break-after: avoid;
             }
         }
     </style>
