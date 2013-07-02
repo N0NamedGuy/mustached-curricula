@@ -1,11 +1,28 @@
-var hogan = require("hogan.js");
-var process = require("process");
+var Handlebars = require("handlebars");
 
-var file = process.argv[2];
 
-var data = eval(file.json);
+// Check for filename
+if (process.argv.length < 3) {
+    console.log("Usage: node " + process.argv[1] + " Filename");
+    process.exit(1);
+}
 
-var compiled = hogan.compile(template);
+var fs = require("fs"),
+    template = process.argv[2];
 
-console.log(hogan.render(compiled));
+fs.readFile(template + ".mustache", 'utf8', function (err, data) {
+    if (err) throw err;
+
+    var compiled = Handlebars.compile(data);
+
+    fs.readFile(template + ".yaml", 'utf8', function (err, data) {
+        if (err) throw err;
+
+        var input = require("js-yaml").load(data);
+
+        console.log(compiled(input));
+    });
+
+});
+
 
