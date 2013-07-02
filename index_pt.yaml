@@ -1,0 +1,294 @@
+meta:
+    lang: 'pt'
+    first_name: 'David'
+    last_name: 'Serrano'
+    title: 'Página pessoal de David Serrano'
+    description: 'Olá, sou o David Serrano, e este é; o meu sítio pessoal na Web,
+        com as coisas que fiz.'
+
+    keywords: 'David Serrano,N0_Named_Guy,N0NamedGuy,Curricula,Portfólio,TI,Programação'
+
+    site_url: 'http://nng.is-a-geek.net/home/index_pt.html'
+    profile_pic: 'http://nng.is-a-geek.net/home/img/david.jpg'
+    gender: 'male'
+
+    twitter: "@n0namedguy"
+    facebook: "david.ma.serrano"
+
+headers: 
+    bio: "Bio"
+    contact: "Contacto"
+    portfolio: "Portfólio"
+    awards: "Distinções"
+
+versions:
+    - lang: "en"
+      title: "English Version"
+      url: "index.html"
+
+bio:
+    heading: "Quem sou eu"
+    description: |
+        <p>Olá! Sou o <b>David Serrano</b>, nascido em 1990, e
+        sou alguém que faz as coisas que gosta, com grande
+        dedicação</p>
+
+        <p>O meu grande objetivo é desenvolver a melhor coisa
+        de sempre. Seja um videojogo, um <i>website</i>, uma interface
+        para televisão, o melhor <i>web service</i>.</p>
+                        
+        <p>Na Internet sou conhecido com o <b>N0_Named_Guy</b>.
+        Sou um estudante de Engenharia Informática, estando
+        eu a fazer um mestrado neste momento.
+        Terminei a minha licenciatura na <a target="_blank"
+        href="http://www.fct.unl.pt">FCT-UNL</a>.</p>
+ 
+emails:
+    - title: E-mail pessoal
+      email: david [dot] ma [dot] serrano [at] gmail [dot] com
+
+    - title: E-mail da faculdade
+      email: d [dot] serrano [at] campus [dot] fct [dot] unl [dot] pt
+
+    - title: E-mail secundário
+      email: david [dot] nonamedguy [at] gmail [dot] com
+
+social:
+    - network: "LinkedIn"
+      username: "David Serrano"
+      icon: "linkedin"
+      url: "https://linkedin.com/pub/david-serrano/55/660/842"
+
+    - network: "Facebook"
+      username: "david.ma.serrano"
+      icon: "facebook"
+      url: "https://www.facebook.com/david.ma.serrano"
+
+    - network: "Twitter"
+      username: "@n0namedguy"
+      icon: "twitter"
+      url: "https://www.twitter.com/n0namedguy"
+
+    - network: "YouTube"
+      username: "N0NamedGuy"
+      icon: "youtube"
+      url: "https://www.youtube.com/user/N0NamedGuy"
+
+    - network: "GitHub"
+      username: "N0NamedGuy"
+      icon: "github"
+      url: "https://github.com/N0NamedGuy"
+
+    - network: "Bitbucket"
+      username: "N0_Named_Guy"
+      icon: "bitbucket"
+      url: "https://bitbucket.org/N0_Named_Guy"
+
+portfolio:
+    - row:
+        - title: "Expo FCT 2013"
+          url: "http://expo2013.fct.unl.pt" 
+          duration: "de Fevereiro de 2013 até Abril de 2013"
+          thumbs:
+              - thumb: "expo2013_1.png"
+                title: "Aplicação Web ExpoFCT" 
+                alt: "Captura de ecrã da aplicação web ExpoFCT,
+                    a mostrar o ecrã do mapa"
+
+          description: |
+            Estive na equipa
+            <a href="http://eventos.fct.unl.pt/expofct/pages/app-expo-fct">
+            oficial</a> do desenvolvimento da aplicação web
+            móvel para Expo FCT 2013.
+
+          button_text: "Experimente"
+
+        - title: "Kinect TV"
+          url: "http://nng.is-a-geek.net/ipm" 
+          duration: "de Agosto de 2012 até Fevereiro de 2013"
+          thumbs:
+              - thumb: "kinecttv_1.png"
+                title: "Protótipo em papel do KinectTV"
+                alt: "Um protótipo em papel do KinectTV"
+
+          description: |
+            Investigação numa interface que pretende fazer
+            com que as pessoas possam usar os seus televisores, sem terem
+            a necessidade de recorrer a controlos remotos físicos.
+
+          button_text: "Saiba mais acerca do Kinect TV"
+
+    - row:
+        - title: "Mouse Trap"
+          url: "http://nng.is-a-geek.net/mousetrap" 
+          duration: "Agosto de 2011"
+          thumbs:
+              - thumb: "mousetrap_1.png"
+                title: "Mouse Trap" 
+                alt: "Imagem de inscirção do Mouse Trap no Ludum Dare"
+
+          description: |
+            Um jogo que fiz em 48 horas para um concurso chamado
+            <a target="_blank"
+                href="http://www.ludumdare.com/compo/">
+            <i>Ludum Dare</i></a>. Foi baseado no aMazing
+            <i>engine</i>, listado a seguir. A página de
+            submissão do jogo pode ser visualizada
+            <a target="_blank"
+            href="http://www.ludumdare.com/compo/ludum-dare-21/?action=preview&amp;uid=5344">
+            aqui</a>.
+
+          button_text: "Jogue Agora"
+
+        - title: "aMAZING"
+          url: "http://nng.is-a-geek.net/amaze" 
+          duration: "de Junho de 2011 até Agosto de 2011"
+          thumbs:
+              - thumb: "amazing_1.png"
+                title: "aMAZING tile engine"
+                alt: "Captura de ecrã do aMZING tile engine, com uma nuvem passageira."
+
+          description: |
+            Devido à minha paixão de construir jogos e o
+            desejo de aprender as maravilhas do HTML5 e do elemento <i>canvas</i>,
+            construí este protótipo.
+
+          button_text: "Experimente-o"
+    - row:
+        - title: "The Thief"
+          url: "http://nng.is-a-geek.net/thief"
+          duration: "de Março de 2011 até Junho de 2011"
+          thumbs:
+              - thumb: "thief_1.png"
+                title: ""
+                alt: "Espaço reservado a uma captura de ecrã do The Thief"
+
+          description: 
+            "Este jogo consiste num ladrão que quer
+            roubar tesouros. Ele terá; de enfrentar vários
+            perigos sejam eles: guardas, outros ladrões, balas
+            perdidas ou até lava!"
+
+          button_text: "Jogue Agora"
+
+        - title: "<i>Website</i> para uma Residencial"
+          url: "http://www.residencialnossoparaiso.com"
+          duration: "Agosto de 2010"
+          thumbs:
+              - thumb: "nossop_1.png"
+                title: "Residencial Nosso Paraíso"
+                alt: "Logótipo da Residencial Nosso Paraíso"
+
+
+          description: |
+            Com base no <i>website</i> para a
+            Auto Guinot, fiz um <i>site</i> para uma residencial
+            chamada Nosso Para&iacute;so, que fica em Quarteira, Algarve.
+                    
+            Durante a minha estadia, propus aos donos da residencial
+            um site. Peguei na base do <i>site</i> da Auto Guinot,
+            e durante a semana que lá fiquei construi-lhes o
+            <i>website</i>.
+            Está (ou pelo menos esteve) alojado em <a target="_blank"
+            class="no-print-link" href="http://www.residencialnossoparaiso.com">
+            www.residencialnossoparaiso.com</a>.
+
+          button_text: "Visite o site"
+
+    - row:
+        - title: "<i>Website</i> para Stand de Automóveis"
+          duration: "de Junho de 2008 até Maio de 2009"
+          thumbs:
+              - thumb: "guinot_1.png"
+                title: "Auto Guinot"
+                alt: "Logótipo da Auto Guinot"
+
+          description: |
+            Um site que fiz no meu tempo livre para um stand de
+            automóveis.
+            O <i>site</i> estava originalmente hospedado em
+            <a target="_blank" href="http://www.autoguinot.pt">www.autoguinot.pt</a>,
+            porém os donos deixaram de se preocupar com o <i>website</i>,
+            estando este indefinidamente indisponível.
+
+awards:
+    - row:
+        - title: "Vencedor do <i>Codebits 2007</i>"
+          subtitle: "Categoria de Criatividade, <i>Bem q'asspas</i>"
+          location: "Lisboa, Portugal, 2007"
+          thumbs:
+              - thumb: "codebits2007_thumb.jpg"
+                title: "Codebits 2007"
+                alt: "Eu e os meus colegas a participar no Codebits 2007"
+          links:
+              - title: "Apresentação (Vídeo do YouTube)"
+                url: "https://www.youtube.com/watch?v=Tvj0HhOg5XI"
+              - title: "Artigo de Jornal"
+                url: "http://blogues.publico.pt/tecnopolis/2008/11/10/sapo-codebits/"
+
+        - title: |
+            <abbr title="Concurso Jovens Cientistas e Investigadores">
+            <i>CJCI</i></abbr> 2008
+          subtitle: "Menção Honrosa, <i>PointIt</i>"
+          location: "Lisboa, Portugal, 2008"
+          thumbs:
+              - thumb: "cjci_thumb.jpg"
+                alt: "Logótipo do CJCI"
+                title: "CJCI"
+          links:
+              - title: "Classificações"
+                url: "http://www.fjuventude.pt/jcientistas2008/static/jc2008_premios.pdf"
+
+
+    - row:
+        - title: |
+            <abbr title="Maratonas Interuniversitárias de Programação 2011">
+            <i>MIUP'11</i></abbr>
+          subtitle: "Terceiro Lugar, na equipa <i>CaparicaTuxz</i>"
+          location: "Faro, Portugal, 2011"
+
+        - title: |
+            <abbr title="Southwest Regional Contest"><i>SWERC</i></abbr> 2011
+          subtitle: "Participante, na equipa <i>CaparicaTuxz</i>"
+          location: "Madrid, Espanha, 2012"
+          links:
+              - title: "Classificações"
+                url: "http://pc.fdi.ucm.es/swerc/Standings.html"
+
+    - row:
+        - title: |
+            <abbr title="Maratonas Interuniversitárias de Programação 2012">
+            <i>MIUP'12</i></abbr>
+          subtitle: "Medalha de Bronze (quinto lugar), na equipa <i>AsymptoticFunctor</i>"
+          location: "Porto, Portugal, 2012"
+          thumbs:
+              - thumb: "miup2012_thumb.jpg"
+                alt: "Da esquerda para a direita, Diogo Sousa, David Serrano, Daniel Parreira e Margarida Mamede, a serem uns dos medalhados com bronze na MIUP'12"
+                title: "Equipa AsymptoticFunctor nas MIUP'12"
+          links:
+              - title: "Classificações"
+                url: "http://miup2012.dcc.fc.up.pt/sessao/classification.html"
+
+        - title: |
+            <abbr title="Southwest Regional Contest"><i>SWERC</i></abbr> 2012
+          subtitle: "Contestant, on the team <i>AsymptoticFunctor</i>"
+          location: "Valência, Espanha, 2012"
+          thumbs:
+              - thumb: "swerc2012_thumb.jpg"
+                alt: "Da esquerda para a direita, Diogo Sousa, Daniel Parreira, David Serrano e Margarida Mamede, posando para a foto de equipa das SWERC 2012"
+                title: "Equipa AsymptoticFunctor nas SWERC 2012"
+          links:
+              - title: "Classifications"
+                url: "http://swerc.dsic.upv.es/resultados/public/index.html"
+
+footer:
+    copyright: 2013 David Miguel de Araújo Serrano
+    license:
+        <p>Esteja à vontade para usar esta página como um
+        <i>template</i>,<br/>
+        desde que mantenha o seu código aberto e desofuscado (excluindo
+        minimizações de <i>scripts</i>).</p>
+        <p>Uma atribuição ao autor original (eu) seria apreciada.</p>
+        <p>Basta fazer uma referência a este site ou indicar-me para
+        futuros trabalhos.</p>
+

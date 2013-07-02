@@ -209,31 +209,34 @@
             <div class="row-fluid">
                 {{#row}}
                 <div class="unbreakable span6 container ">
-                    {{#url}}
+                    {{#if url}}
                     <a target="_blank"
                         class="no-print-link"
-                        href="{{url}}">
-                        <h3>{{title}}</h3>
+                        href="{{this}}">
+                        <h3>{{{title}}}</h3>
                     </a>
-                    {{/url}}
-
-                    {{^url}}
-                    <h3>{{title}}</h3>
-                    {{/url}}
+                    {{else}}
+                    <h3>{{{title}}}</h3>
+                    {{/if}}
                     
                     <small class="muted">({{duration}})</small>
                     <ul class="thumbnails text-center">
                         {{#thumbs}}
                         <li>
                             <div class="thumbnail">
+                                {{#if ../url}}
                                 <a target="_blank"
                                     class="no-print-link"
                                     href="{{../url}}">
                                     <img src="img/portfolio/{{thumb}}"
                                     alt="{{alt}}"
-                                    title="{{title}}"
-                                    >
+                                    title="{{title}}">
                                 </a>
+                                {{else}}
+                                    <img src="img/portfolio/{{thumb}}"
+                                    alt="{{alt}}"
+                                    title="{{title}}">
+                                {{/if}}
                             </div>
                         </li>
                         {{/thumbs}}
