@@ -12,11 +12,15 @@ meta:
     profile_pic: 'http://nng.is-a-geek.net/home/img/david.jpg'
     gender: 'male'
 
+    twitter: "@n0namedguy"
+    facebook: "david.ma.serrano"
+
+
 headers: 
     bio: "Bio"
     contact: "Contact"
     portfolio: "Portfolio"
-    awards: "Awards"
+    awards: "Achievements"
 
 versions:
     - lang: "pt"
@@ -39,13 +43,13 @@ bio:
         bachelor at computer science.</p>
  
 emails:
-    - description: Personal e-mail
+    - title: Personal e-mail
       email: david [dot] ma [dot] serrano [at] gmail [dot] com
 
-    - description: College e-mail
+    - title: College e-mail
       email: d [dot] serrano [at] campus [dot] fct [dot] unl [dot] pt
 
-    - description: Secondary e-mail
+    - title: Secondary e-mail
       email: david [dot] nonamedguy [at] gmail [dot] com
 
 social:
@@ -202,4 +206,84 @@ portfolio:
             website, so the website is down at the moment.
 
 
+awards:
+    - row:
+        - title: "<i>Codebits 2007</i> Winner"
+          subtitle: "Creativity Category, <i>Bem q'asspas</i>"
+          location: "Lisbon, Portugal, 2007"
+          thumbs:
+              - thumb: "codebits2007_thumb.jpg"
+                alt: "Me and my mates participating on Codebits 2007"
+                title: "Codebits 2007"
+          links:
+              - title: "Presentation (Youtube Video)"
+                url: "https://www.youtube.com/watch?v=Tvj0HhOg5XI"
+              - title: "Newspaper Article"
+                url: "http://blogues.publico.pt/tecnopolis/2008/11/10/sapo-codebits/"
 
+        - title: |
+            <abbr title="Concurso Jovens Cientistas e Investigadores">
+            <i>CJCI</i></abbr> 2008
+          subtitle: "Honorable Mention, <i>PointIt</i>"
+          location: "Lisbon, Portugal, 2008"
+          thumbs:
+              - thumb: "cjci_thumb.jpg"
+                alt: "CJCI Logo"
+                title: "CJCI Logo"
+          links:
+              - title: "Classifications"
+                url: "http://www.fjuventude.pt/jcientistas2008/static/jc2008_premios.pdf"
+
+
+    - row:
+        - title: |
+            <abbr title="Maratonas Interuniversitárias de Programação 2011">
+            <i>MIUP'11</i></abbr>
+          subtitle: "Third Place, on the team <i>CaparicaTuxz</i>"
+          location: "Faro, Portugal, 2011"
+
+        - title: |
+            <abbr title="Southwest Regional Contest"><i>SWERC</i></abbr> 2011
+          subtitle: "Contestant, on the team <i>CaparicaTuxz</i>"
+          location: "Madrid, Spain, 2012"
+          links:
+              - title: "Classifications"
+                url: "http://pc.fdi.ucm.es/swerc/Standings.html"
+
+    - row:
+        - title: |
+            <abbr title="Maratonas Interuniversitárias de Programação 2012">
+            <i>MIUP'12</i></abbr>
+          subtitle: "Bronze Medal (fifth place), on the team <i>AsymptoticFunctor</i>"
+          location: "Porto, Portugal, 2012"
+          thumbs:
+              - thumb: "miup2012_thumb.jpg"
+                alt: "From left to right, Diogo Sousa, David Serrano, Daniel Parreira
+                    and Margarida Mamede, being the MIUP'12 bronze medalists"
+                title: "AsymptoticFunctor team members receiving the bronze medal"
+          links:
+              - title: "Classifications"
+                url: "http://miup2012.dcc.fc.up.pt/sessao/classification.html"
+
+        - title: |
+            <abbr title="Southwest Regional Contest"><i>SWERC</i></abbr> 2012
+          subtitle: "Contestant, on the team <i>AsymptoticFunctor</i>"
+          location: "Valencia, Spain, 2012"
+          thumbs:
+              - thumb: "swerc2012_thumb.jpg"
+                alt: "From left to right, Diogo Sousa, Daniel Parreira, David Serrano
+                    and Margarida Mamede, posing for the SWERC 2012 team photo"
+                title: "AsymptoticFunctor team members on SWERC 2012"
+          links:
+              - title: "Classifications"
+                url: "http://swerc.dsic.upv.es/resultados/public/index.html"
+
+footer:
+    copyright: 2013 David Miguel de Araújo Serrano
+    license:
+        <p>Feel free to use this page as a template,<br/> as long
+        as you keep your code open and unobfuscated (it's OK to
+        minimize scripts though).</p>
+        <p>An attribution to the original author (me)
+        would be appreciated.</p><p>Just refer to this site, hire me or
+        do something nice for me...</p>
