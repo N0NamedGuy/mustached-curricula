@@ -209,11 +209,18 @@
             <div class="row-fluid">
                 {{#row}}
                 <div class="unbreakable span6 container ">
+                    {{#url}}
                     <a target="_blank"
                         class="no-print-link"
                         href="{{url}}">
                         <h3>{{title}}</h3>
                     </a>
+                    {{/url}}
+
+                    {{^url}}
+                    <h3>{{title}}</h3>
+                    {{/url}}
+                    
                     <small class="muted">({{duration}})</small>
                     <ul class="thumbnails text-center">
                         {{#thumbs}}
@@ -234,9 +241,13 @@
 
                     <p>{{{description}}}</p>
 
+                    {{#url}}
+                    {{#button_text}}
                     <a target="_blank"
                         class="btn btn-primary btn-large"
-                        href="{{url}}">{{button_text}}</a>
+                        href="{{url}}">{{this}}</a>
+                    {{/button_text}}
+                    {{/url}}
                 </div>
                 {{/row}}
 
