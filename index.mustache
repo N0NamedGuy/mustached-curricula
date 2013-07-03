@@ -127,7 +127,7 @@
                     <span class="icon-bar"></span>
                 </a>
 
-                <a href="#bio" class="brand">{{meta.first_name}} {{meta.last_name}}</a>
+                <a href="#" class="brand">{{meta.first_name}} {{meta.last_name}}</a>
                 <ul class="nav pull-right">
                     {{#versions}}
                     <li>
@@ -241,13 +241,13 @@
 
                     <p>{{{description}}}</p>
 
-                    {{#url}}
-                    {{#button_text}}
+                    {{#if url}}
+                    {{#if button_text}}
                     <a target="_blank"
                         class="btn btn-primary btn-large"
-                        href="{{url}}">{{this}}</a>
-                    {{/button_text}}
-                    {{/url}}
+                        href="{{url}}">{{button_text}}</a>
+                    {{/if}}
+                    {{/if}}
                 </div>
                 {{/row}}
 
