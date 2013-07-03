@@ -155,7 +155,8 @@
                 <div class="row-fluid">
                     <div class="span4 text-center">
                         <img class="img-polaroid img-circle profile-pic"
-                            alt="{{meta.first_name}} {{meta.last_name}} profile picture"
+                            alt="{{meta.first_name}} {{meta.last_name}}"
+                            title="{{meta.first_name}} {{meta.last_name}}"
                             src="{{meta.profile_pic}}"/>
                     </div>
                     <div class="span8">
@@ -176,15 +177,12 @@
                 {{#emails}}
                 <dt><b>{{title}}:</b></dt>
                     <dd>
-                        <span class="email">
-                            {{email}}
-                        </span>
+                        <span class="email">{{email}}</span>
                     </dd>
                 {{/emails}}
             </dl>
 
             <ul class="unstyled contacts text-center inline">
-
                 {{#social}}
                 <li class="unbreakable text-center">
                     <a class="no-print-link"
@@ -196,7 +194,6 @@
                     </a>
                 </li>
                 {{/social}}
-
             </ul>
         </section>
         
@@ -212,7 +209,7 @@
                     {{#if url}}
                     <a target="_blank"
                         class="no-print-link"
-                        href="{{this}}">
+                        href="{{url}}">
                         <h3>{{{title}}}</h3>
                     </a>
                     {{else}}
@@ -224,10 +221,10 @@
                         {{#thumbs}}
                         <li>
                             <div class="thumbnail">
-                                {{#if ../url}}
+                                {{#if url}}
                                 <a target="_blank"
                                     class="no-print-link"
-                                    href="{{../url}}">
+                                    href="{{url}}">
                                     <img src="img/portfolio/{{thumb}}"
                                     alt="{{alt}}"
                                     title="{{title}}">

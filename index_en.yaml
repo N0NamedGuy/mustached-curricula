@@ -86,13 +86,14 @@ social:
 portfolio:
     - row:
         - title: "Expo FCT 2013"
-          url: "http://expo2013.fct.unl.pt" 
+          url: &url "http://expo2013.fct.unl.pt" 
           duration: "from February 2013 to April 2013"
           thumbs:
               - thumb: "expo2013_1.png"
                 title: "ExpoFCT Web Application screen shot" 
                 alt: "Screen shot of the ExpoFCT Web Application
                     showing the Map screen"
+                url: *url
 
           description: |
             I was in the
@@ -103,12 +104,13 @@ portfolio:
           button_text: "Try it out"
 
         - title: "Kinect TV"
-          url: "http://nng.is-a-geek.net/ipm" 
+          url: &url "http://nng.is-a-geek.net/ipm" 
           duration: "from August 2012 to February 2013"
           thumbs:
               - thumb: "kinecttv_1.png"
                 title: "KinectTV paper prototype"
                 alt: "A paper prototype of the KinectTV"
+                url: *url
 
           description: |
             Research on an interface that will enable people to
@@ -119,12 +121,13 @@ portfolio:
 
     - row:
         - title: "Mouse Trap"
-          url: "http://nng.is-a-geek.net/mousetrap" 
+          url: &url "http://nng.is-a-geek.net/mousetrap" 
           duration: "August 2011"
           thumbs:
               - thumb: "mousetrap_1.png"
                 title: "Mouse Trap screen shot" 
                 alt: "Mouse Trap picture for its Ludum Dare entry"
+                url: *url
 
           description: |
             A game that I made in 48 hours for a contest called
@@ -138,12 +141,13 @@ portfolio:
           button_text: "Play it"
 
         - title: "aMAZING"
-          url: "http://nng.is-a-geek.net/iamaze" 
+          url: &url "http://nng.is-a-geek.net/amaze" 
           duration: "from June 2011 to August 2011"
           thumbs:
               - thumb: "amazing_1.png"
                 title: "aMAZING tile engine screen shot"
                 alt: "aMZING tile engine screen shot, with a passing cloud."
+                url: *url
 
           description: |
             Combining my passion for building games, and the
@@ -153,12 +157,13 @@ portfolio:
           button_text: "Try it out"
     - row:
         - title: "The Thief"
-          url: "http://nng.is-a-geek.net/thief"
+          url: &url "http://nng.is-a-geek.net/thief"
           duration: "from March 2011 to June 2011"
           thumbs:
               - thumb: "thief_1.png"
                 title: ""
                 alt: "Placeholder for a The Thief screen shot"
+                url: *url
 
           description: 
             "This game consists on a thief who wishes to steal
@@ -168,12 +173,13 @@ portfolio:
           button_text: "Play It"
 
         - title: "Residential Website"
-          url: "http://www.residencialnossoparaiso.com"
+          url: &url "http://www.residencialnossoparaiso.com"
           duration: "August 2010"
           thumbs:
               - thumb: "nossop_1.png"
                 title: "Nosso Paraíso residential logo"
                 alt: "Nosso Paraíso residential logo"
+                url: *url
 
 
           description: |
