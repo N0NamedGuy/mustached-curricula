@@ -237,6 +237,8 @@ awards:
                 alt: "CJCI Logo"
                 title: "CJCI Logo"
           links:
+              - title: "Contest Webpage"
+                url: "http://www.fjuventude.pt/jcientistas2008/"
               - title: "Classifications"
                 url: "http://www.fjuventude.pt/jcientistas2008/static/jc2008_premios.pdf"
 
@@ -254,6 +256,8 @@ awards:
                     on MIUP'11"
                 title: "CaparicaTuxz team members"
           links:
+              - title: "Contest Webpage"
+                url: "http://deei.fct.ualg.pt/MIUP2011/"
               - title: "Contest Pictures"
                 url: "https://picasaweb.google.com/117378416743894294578/MIUP2011?authkey=Gv1sRgCKqlz-W-nKfNPQ"
 
@@ -267,6 +271,8 @@ awards:
                     and Diogo Sousa, posing for the SWERC 2011 team photo"
                 title: "CaparicaTuxz team members on SWERC 2011"
           links:
+              - title: "Contest Website"
+                url: "http://pc.fdi.ucm.es/swerc/"
               - title: "Classifications"
                 url: "http://pc.fdi.ucm.es/swerc/Standings.html"
 
@@ -282,6 +288,8 @@ awards:
                     and Margarida Mamede, being the MIUP'12 bronze medalists"
                 title: "AsymptoticFunctor team members receiving the bronze medal"
           links:
+              - title: "Contest Website"
+                url: "http://miup2012.dcc.fc.up.pt/"
               - title: "Classifications"
                 url: "http://miup2012.dcc.fc.up.pt/sessao/classification.html"
 
@@ -295,6 +303,8 @@ awards:
                     and Margarida Mamede, posing for the SWERC 2012 team photo"
                 title: "AsymptoticFunctor team members on SWERC 2012"
           links:
+              - title: "Contest Website"
+                url: "http://swerc.dsic.upv.es/"
               - title: "Classifications"
                 url: "http://swerc.dsic.upv.es/resultados/public/index.html"
 
