@@ -1,11 +1,15 @@
 {
     "name": "mustached-curricula",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "author": "David Serrano <david.ma.serrano@gmail.com>",
     "description": "Make a webpage showing off your stuff, just by filling out YAML files",
     "repository": {
         "type": "git",
         "url": "https://github.com/N0NamedGuy/mustached-curricula"
+    },
+    "scripts": {
+        "start": "make all",
+        "stop": "make clean"
     },
     "keywords": [
         "curricula",
