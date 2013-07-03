@@ -1,11 +1,12 @@
+YAML2HTML=node_modules/.bin/yaml2html
 all: index.html index_pt.html
 
 index.html: index.mustache index_en.yaml
-	yaml2html index.mustache index_en.yaml > index.html
+	$(YAML2HTML) index.mustache index_en.yaml > public/index.html
 
 index_pt.html: index.mustache index_pt.yaml
-	yaml2html index.mustache index_pt.yaml > index_pt.html
+	$(YAML2HTML) index.mustache index_pt.yaml > public/index_pt.html
 
 clean:
-	rm index_pt.html index.html
+	rm public/{index_pt,index}.html
 	
