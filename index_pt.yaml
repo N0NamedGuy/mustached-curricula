@@ -164,8 +164,8 @@ portfolio:
           duration: "de Março de 2011 até Junho de 2011"
           thumbs:
               - thumb: "thief_1.png"
-                title: ""
-                alt: "Espaço reservado a uma captura de ecrã do The Thief"
+                title: "The Thief"
+                alt: "Captura de ecrã do The Thief, com o ladrão a fugir de balas"
                 url: *url
 
           description: 

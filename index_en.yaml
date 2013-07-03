@@ -161,8 +161,8 @@ portfolio:
           duration: "from March 2011 to June 2011"
           thumbs:
               - thumb: "thief_1.png"
-                title: ""
-                alt: "Placeholder for a The Thief screen shot"
+                title: "The Thief screen shot"
+                alt: "The Thief screen shot, showing the thief running from bullets"
                 url: *url
 
           description: 
