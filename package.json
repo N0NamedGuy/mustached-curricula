@@ -1,14 +1,22 @@
 {
-    "name": "yaml2html",
-    "version": "0.1.0",
+    "name": "mustached-curricula",
+    "version": "0.1.2",
     "author": "David Serrano <david.ma.serrano@gmail.com>",
-    "description": "Generate an HTML page using a YAML data file and a handlebars template",
-    "bin": {
-        "yaml2html": "./yaml2html"
+    "description": "Make a webpage showing off your stuff, just by filling out YAML files",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/N0NamedGuy/mustached-curricula"
     },
+    "keywords": [
+        "curricula",
+        "personal",
+        "templating",
+        "portfolio"
+    ],
     "dependencies": {
         "handlebars": "*",
-        "js-yaml": "*"
+        "js-yaml": "*",
+        "yaml2html": "*"
     },
     "license": "CC BY-SA"
 
