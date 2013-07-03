@@ -1,6 +1,6 @@
 {
     "name": "mustached-curricula",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "author": "David Serrano <david.ma.serrano@gmail.com>",
     "description": "Make a webpage showing off your stuff, just by filling out YAML files",
     "repository": {
@@ -18,8 +18,6 @@
         "portfolio"
     ],
     "dependencies": {
-        "handlebars": "*",
-        "js-yaml": "*",
         "yaml2html": "*"
     },
     "license": "CC BY-SA"
