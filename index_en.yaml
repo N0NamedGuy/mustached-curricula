@@ -251,7 +251,12 @@ awards:
         - title: |
             <abbr title="Southwest Regional Contest"><i>SWERC</i></abbr> 2011
           subtitle: "Contestant, on the team <i>CaparicaTuxz</i>"
-          location: "Madrid, Spain, 2012"
+          location: "Madrid, Spain, 2011"
+          thumbs:
+              - thumb: "swerc2011_thumb.jpg"
+                alt: "From left to right, Hugo Vieira, Diogo Serra, David Serrano
+                    and Diogo Sousa, posing for the SWERC 2011 team photo"
+                title: "CaparicaTuxz team members on SWERC 2011"
           links:
               - title: "Classifications"
                 url: "http://pc.fdi.ucm.es/swerc/Standings.html"
