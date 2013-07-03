@@ -149,7 +149,7 @@ portfolio:
           thumbs:
               - thumb: "amazing_1.png"
                 title: "aMAZING tile engine"
-                alt: "Captura de ecrã do aMAZING tile engine, com uma nuvem passageira."
+                alt: "Captura de ecrã do aMAZING tile engine, com uma nuvem passageira"
                 url: *url
 
           description: |
@@ -272,7 +272,7 @@ awards:
           thumbs:
               - thumb: "swerc2011_thumb.jpg"
                 alt: "Da esquerda para a direita, Hugo Vieira, Diogo Serra, David Serrano
-                    e Diogo Sousa, posando para a foto de equipa das das SWERC 2011"
+                    e Diogo Sousa, posando para a foto de equipa das SWERC 2011"
                 title: "Equipa CaparicaTuxz nas SWERC 2011"
           links:
               - title: "Página do Concurso"
