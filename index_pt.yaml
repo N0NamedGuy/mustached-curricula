@@ -127,7 +127,7 @@ portfolio:
           thumbs:
               - thumb: "mousetrap_1.png"
                 title: "Mouse Trap" 
-                alt: "Imagem de inscirção do Mouse Trap no Ludum Dare"
+                alt: "Imagem de inscrição do Mouse Trap no Ludum Dare"
                 url: *url
 
           description: |
@@ -251,6 +251,15 @@ awards:
             <i>MIUP'11</i></abbr>
           subtitle: "Terceiro Lugar, na equipa <i>CaparicaTuxz</i>"
           location: "Faro, Portugal, 2011"
+          thumbs:
+              - thumb: "miup2011_thumb.jpg"
+                alt: "Da esquerda para a direita, David Serrano, Diogo Serra e
+                    Diogo Sousa, a exibirem os prémios e certificados para
+                    o terceiro lugar nas MIUP'11"
+                title: "Equipa CaparicaTuxz nas MIUP'11"
+          links:
+              - title: "Fotografias do Concurso"
+                url: "https://picasaweb.google.com/117378416743894294578/MIUP2011?authkey=Gv1sRgCKqlz-W-nKfNPQ"
 
         - title: |
             <abbr title="Southwest Regional Contest"><i>SWERC</i></abbr> 2011
@@ -260,7 +269,7 @@ awards:
               - thumb: "swerc2011_thumb.jpg"
                 alt: "Da esquerda para a direita, Hugo Vieira, Diogo Serra, David Serrano
                     e Diogo Sousa, posando para a foto de equipa das dsa SWERC 2011"
-                title: "Equipa CaparicaTuxz"
+                title: "Equipa CaparicaTuxz nas SWERC 2011"
           links:
               - title: "Classifications"
                 url: "http://pc.fdi.ucm.es/swerc/Standings.html"

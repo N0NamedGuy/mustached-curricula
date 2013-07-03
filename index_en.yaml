@@ -247,6 +247,15 @@ awards:
             <i>MIUP'11</i></abbr>
           subtitle: "Third Place, on the team <i>CaparicaTuxz</i>"
           location: "Faro, Portugal, 2011"
+          thumbs:
+              - thumb: "miup2011_thumb.jpg"
+                alt: "From left to right, David Serrano, Diogo Serra and Diogo Sousa,
+                    showing off the prizes and certificates for the third place
+                    on MIUP'11"
+                title: "CaparicaTuxz team members"
+          links:
+              - title: "Contest Pictures"
+                url: "https://picasaweb.google.com/117378416743894294578/MIUP2011?authkey=Gv1sRgCKqlz-W-nKfNPQ"
 
         - title: |
             <abbr title="Southwest Regional Contest"><i>SWERC</i></abbr> 2011
