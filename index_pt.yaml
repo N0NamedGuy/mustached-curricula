@@ -91,8 +91,8 @@ portfolio:
           duration: "de Fevereiro de 2013 até Abril de 2013"
           thumbs:
               - thumb: "expo2013_1.png"
-                title: "Aplicação Web ExpoFCT" 
-                alt: "Captura de ecrã da aplicação web ExpoFCT,
+                title: "Aplicação Web Expo FCT" 
+                alt: "Captura de ecrã da aplicação web Expo FCT,
                     a mostrar o ecrã do mapa"
                 url: *url
 
@@ -109,8 +109,8 @@ portfolio:
           duration: "de Agosto de 2012 até Fevereiro de 2013"
           thumbs:
               - thumb: "kinecttv_1.png"
-                title: "Protótipo em papel do KinectTV"
-                alt: "Um protótipo em papel do KinectTV"
+                title: "Protótipo em papel do Kinect TV"
+                alt: "Um protótipo em papel do Kinect TV"
                 url: *url
 
           description: |
@@ -134,7 +134,7 @@ portfolio:
             Um jogo que fiz em 48 horas para um concurso chamado
             <a target="_blank"
                 href="http://www.ludumdare.com/compo/">
-            <i>Ludum Dare</i></a>. Foi baseado no aMazing
+            <i>Ludum Dare</i></a>. Foi baseado no aMAZING
             <i>engine</i>, listado a seguir. A página de
             submissão do jogo pode ser visualizada
             <a target="_blank"
@@ -149,7 +149,7 @@ portfolio:
           thumbs:
               - thumb: "amazing_1.png"
                 title: "aMAZING tile engine"
-                alt: "Captura de ecrã do aMZING tile engine, com uma nuvem passageira."
+                alt: "Captura de ecrã do aMAZING tile engine, com uma nuvem passageira."
                 url: *url
 
           description: |
@@ -192,7 +192,7 @@ portfolio:
                     
             Durante a minha estadia, propus aos donos da residencial
             um site. Peguei na base do <i>site</i> da Auto Guinot,
-            e durante a semana que lá fiquei construi-lhes o
+            e durante a semana que lá fiquei construí-lhes o
             <i>website</i>.
             Está (ou pelo menos esteve) alojado em <a target="_blank"
             class="no-print-link" href="http://www.residencialnossoparaiso.com">
@@ -219,7 +219,7 @@ portfolio:
 awards:
     - row:
         - title: "Vencedor do <i>Codebits 2007</i>"
-          subtitle: "Categoria de Criatividade, <i>Bem q'asspas</i>"
+          subtitle: "Categoria de Criatividade, <i>Bem q'asapas</i>"
           location: "Lisboa, Portugal, 2007"
           thumbs:
               - thumb: "codebits2007_thumb.jpg"
@@ -272,7 +272,7 @@ awards:
           thumbs:
               - thumb: "swerc2011_thumb.jpg"
                 alt: "Da esquerda para a direita, Hugo Vieira, Diogo Serra, David Serrano
-                    e Diogo Sousa, posando para a foto de equipa das dsa SWERC 2011"
+                    e Diogo Sousa, posando para a foto de equipa das das SWERC 2011"
                 title: "Equipa CaparicaTuxz nas SWERC 2011"
           links:
               - title: "Página do Concurso"
@@ -298,7 +298,7 @@ awards:
 
         - title: |
             <abbr title="Southwest Regional Contest"><i>SWERC</i></abbr> 2012
-          subtitle: "Contestant, on the team <i>AsymptoticFunctor</i>"
+          subtitle: "Participante, na equipa <i>AsymptoticFunctor</i>"
           location: "Valência, Espanha, 2012"
           thumbs:
               - thumb: "swerc2012_thumb.jpg"
@@ -307,7 +307,7 @@ awards:
           links:
               - title: "Página do Concurso"
                 url: "http://swerc.dsic.upv.es/"
-              - title: "Classifications"
+              - title: "Classificações"
                 url: "http://swerc.dsic.upv.es/resultados/public/index.html"
 
 footer:

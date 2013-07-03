@@ -90,8 +90,8 @@ portfolio:
           duration: "from February 2013 to April 2013"
           thumbs:
               - thumb: "expo2013_1.png"
-                title: "ExpoFCT Web Application screen shot" 
-                alt: "Screen shot of the ExpoFCT Web Application
+                title: "Expo FCT Web Application screen shot" 
+                alt: "Screen shot of the Expo FCT Web Application
                     showing the Map screen"
                 url: *url
 
@@ -108,8 +108,8 @@ portfolio:
           duration: "from August 2012 to February 2013"
           thumbs:
               - thumb: "kinecttv_1.png"
-                title: "KinectTV paper prototype"
-                alt: "A paper prototype of the KinectTV"
+                title: "Kinect TV paper prototype"
+                alt: "A paper prototype of the Kinect TV"
                 url: *url
 
           description: |
@@ -132,8 +132,8 @@ portfolio:
           description: |
             A game that I made in 48 hours for a contest called
             <a target="_blank" href="http://www.ludumdare.com/compo/">
-            Ludum Dare</a>. It was based on the <a href="#amaze">aMazing
-            engine</a>, listed next. The game's submission page
+            Ludum Dare</a>. It was based on the aMAZING
+            engine, listed next. The game's submission page
             can be viewed <a target="_blank"
             href="http://www.ludumdare.com/compo/ludum-dare-21/?action=preview&amp;uid=5344">
             here</a>.
@@ -146,7 +146,7 @@ portfolio:
           thumbs:
               - thumb: "amazing_1.png"
                 title: "aMAZING tile engine screen shot"
-                alt: "aMZING tile engine screen shot, with a passing cloud."
+                alt: "aMAZING tile engine screen shot, with a passing cloud."
                 url: *url
 
           description: |
@@ -222,7 +222,7 @@ awards:
                 alt: "Me and my mates participating on Codebits 2007"
                 title: "Codebits 2007"
           links:
-              - title: "Presentation (Youtube Video)"
+              - title: "Presentation (YouTube Video)"
                 url: "https://www.youtube.com/watch?v=Tvj0HhOg5XI"
               - title: "Newspaper Article"
                 url: "http://blogues.publico.pt/tecnopolis/2008/11/10/sapo-codebits/"
@@ -237,7 +237,7 @@ awards:
                 alt: "CJCI Logo"
                 title: "CJCI Logo"
           links:
-              - title: "Contest Webpage"
+              - title: "Contest Web page"
                 url: "http://www.fjuventude.pt/jcientistas2008/"
               - title: "Classifications"
                 url: "http://www.fjuventude.pt/jcientistas2008/static/jc2008_premios.pdf"
@@ -256,7 +256,7 @@ awards:
                     on MIUP'11"
                 title: "CaparicaTuxz team members"
           links:
-              - title: "Contest Webpage"
+              - title: "Contest Web page"
                 url: "http://deei.fct.ualg.pt/MIUP2011/"
               - title: "Contest Pictures"
                 url: "https://picasaweb.google.com/117378416743894294578/MIUP2011?authkey=Gv1sRgCKqlz-W-nKfNPQ"
@@ -271,7 +271,7 @@ awards:
                     and Diogo Sousa, posing for the SWERC 2011 team photo"
                 title: "CaparicaTuxz team members on SWERC 2011"
           links:
-              - title: "Contest Webpage"
+              - title: "Contest Web page"
                 url: "http://pc.fdi.ucm.es/swerc/"
               - title: "Classifications"
                 url: "http://pc.fdi.ucm.es/swerc/Standings.html"
@@ -288,7 +288,7 @@ awards:
                     and Margarida Mamede, being the MIUP'12 bronze medalists"
                 title: "AsymptoticFunctor team members receiving the bronze medal"
           links:
-              - title: "Contest Webpage"
+              - title: "Contest Web page"
                 url: "http://miup2012.dcc.fc.up.pt/"
               - title: "Classifications"
                 url: "http://miup2012.dcc.fc.up.pt/sessao/classification.html"
@@ -303,7 +303,7 @@ awards:
                     and Margarida Mamede, posing for the SWERC 2012 team photo"
                 title: "AsymptoticFunctor team members on SWERC 2012"
           links:
-              - title: "Contest Webpage"
+              - title: "Contest Web page"
                 url: "http://swerc.dsic.upv.es/"
               - title: "Classifications"
                 url: "http://swerc.dsic.upv.es/resultados/public/index.html"
