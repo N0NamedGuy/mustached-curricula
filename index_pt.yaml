@@ -42,6 +42,11 @@ bio:
         eu a fazer um mestrado neste momento.
         Terminei a minha licenciatura na <a target="_blank"
         href="http://www.fct.unl.pt">FCT-UNL</a>.</p>
+
+    cv:
+        description: <i>Curriculum vitæ</i>
+        url: cv_pt.pdf
+
  
 emails:
     - title: E-mail pessoal

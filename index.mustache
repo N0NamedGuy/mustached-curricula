@@ -163,6 +163,12 @@
                         <h2>{{bio.heading}}</h2>
 
                         {{{bio.description}}}
+
+                        {{#if bio.cv}}
+                        <a href="{{bio.cv.url}}" target="_blank">
+                            {{{bio.cv.description}}}
+                        </a>
+                        {{/if}}
                     </div>
                 </div> 
             </div>
