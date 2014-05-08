@@ -8,8 +8,8 @@ meta:
 
     keywords: 'David Serrano,N0_Named_Guy,N0NamedGuy,Curricula,Portfólio,TI,Programação'
 
-    site_url: 'http://nng.is-a-geek.net/home/index_pt.html'
-    profile_pic: 'http://nng.is-a-geek.net/home/img/david.jpg'
+    site_url: 'http://dserrano.duckdns.org/home/index_pt.html'
+    profile_pic: 'http://dserrano.duckdns.org/home/img/david.jpg'
     gender: 'male'
 
     twitter: "@n0namedguy"
@@ -110,7 +110,7 @@ portfolio:
           button_text: "Experimente"
 
         - title: "Kinect TV"
-          url: &url "http://nng.is-a-geek.net/ipm" 
+          url: &url "http://dserrano.duckdns.org/ipm" 
           duration: "de Agosto de 2012 até Fevereiro de 2013"
           thumbs:
               - thumb: "kinecttv_1.png"
@@ -127,7 +127,7 @@ portfolio:
 
     - row:
         - title: "Mouse Trap"
-          url: &url "http://nng.is-a-geek.net/mousetrap" 
+          url: &url "http://dserrano.duckdns.org/mousetrap" 
           duration: "Agosto de 2011"
           thumbs:
               - thumb: "mousetrap_1.png"
@@ -149,7 +149,7 @@ portfolio:
           button_text: "Jogue Agora"
 
         - title: "aMAZING"
-          url: &url "http://nng.is-a-geek.net/amaze" 
+          url: &url "http://dserrano.duckdns.org/amaze" 
           duration: "de Junho de 2011 até Agosto de 2011"
           thumbs:
               - thumb: "amazing_1.png"
@@ -165,7 +165,7 @@ portfolio:
           button_text: "Experimente-o"
     - row:
         - title: "The Thief"
-          url: &url "http://nng.is-a-geek.net/thief"
+          url: &url "http://dserrano.duckdns.org/thief"
           duration: "de Março de 2011 até Junho de 2011"
           thumbs:
               - thumb: "thief_1.png"
