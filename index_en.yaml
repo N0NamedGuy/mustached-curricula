@@ -8,8 +8,8 @@ meta:
     keywords: 'David Serrano,N0_Named_Guy,N0NamedGuy,Curricula,
         Portfolio,Resume,IT,Programming'
 
-    site_url: 'http://dserrano.duckdns.org/'
-    profile_pic: 'http://dserrano.duckdns.org/img/david.jpg'
+    site_url: 'https://dserrano.duckdns.org/'
+    profile_pic: 'https://dserrano.duckdns.org/img/david.jpg'
     gender: 'male'
 
     twitter: "@n0namedguy"
@@ -117,7 +117,6 @@ portfolio:
 
     - row:
         - title: "Mouse Trap"
-          url: &url "http://dserrano.duckdns.org/mousetrap" 
           duration: "August 2011"
           thumbs:
               - thumb: "mousetrap_1.png"
