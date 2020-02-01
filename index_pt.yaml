@@ -8,8 +8,8 @@ meta:
 
     keywords: 'David Serrano,N0_Named_Guy,N0NamedGuy,Curricula,Portfólio,TI,Programação'
 
-    site_url: 'http://dserrano.duckdns.org/home/index_pt.html'
-    profile_pic: 'http://dserrano.duckdns.org/home/img/david.jpg'
+    site_url: 'http://dserrano.duckdns.org/index_pt.html'
+    profile_pic: 'http://dserrano.duckdns.org/img/david.jpg'
     gender: 'male'
 
     twitter: "@n0namedguy"
@@ -92,14 +92,12 @@ social:
 portfolio:
     - row:
         - title: "Expo FCT 2013"
-          url: &url "http://expo2013.fct.unl.pt" 
           duration: "de Fevereiro de 2013 até Abril de 2013"
           thumbs:
               - thumb: "expo2013_1.png"
                 title: "Aplicação Web Expo FCT" 
                 alt: "Captura de ecrã da aplicação web Expo FCT,
                     a mostrar o ecrã do mapa"
-                url: *url
 
           description: |
             Estive na equipa
@@ -110,13 +108,11 @@ portfolio:
           button_text: "Experimente"
 
         - title: "Kinect TV"
-          url: &url "http://dserrano.duckdns.org/ipm" 
           duration: "de Agosto de 2012 até Fevereiro de 2013"
           thumbs:
               - thumb: "kinecttv_1.png"
                 title: "Protótipo em papel do Kinect TV"
                 alt: "Um protótipo em papel do Kinect TV"
-                url: *url
 
           description: |
             Investigação numa interface que pretende fazer
@@ -127,13 +123,11 @@ portfolio:
 
     - row:
         - title: "Mouse Trap"
-          url: &url "http://dserrano.duckdns.org/mousetrap" 
           duration: "Agosto de 2011"
           thumbs:
               - thumb: "mousetrap_1.png"
                 title: "Mouse Trap" 
                 alt: "Imagem de inscrição do Mouse Trap no Ludum Dare"
-                url: *url
 
           description: |
             Um jogo que fiz em 48 horas para um concurso chamado
@@ -149,13 +143,11 @@ portfolio:
           button_text: "Jogue Agora"
 
         - title: "aMAZING"
-          url: &url "http://dserrano.duckdns.org/amaze" 
           duration: "de Junho de 2011 até Agosto de 2011"
           thumbs:
               - thumb: "amazing_1.png"
                 title: "aMAZING tile engine"
                 alt: "Captura de ecrã do aMAZING tile engine, com uma nuvem passageira"
-                url: *url
 
           description: |
             Devido à minha paixão de construir jogos e o
@@ -165,13 +157,11 @@ portfolio:
           button_text: "Experimente-o"
     - row:
         - title: "The Thief"
-          url: &url "http://dserrano.duckdns.org/thief"
           duration: "de Março de 2011 até Junho de 2011"
           thumbs:
               - thumb: "thief_1.png"
                 title: "The Thief"
                 alt: "Captura de ecrã do The Thief, com o ladrão a fugir de balas"
-                url: *url
 
           description: 
             "Este jogo consiste num ladrão que quer
