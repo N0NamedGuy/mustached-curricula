@@ -1,4 +1,4 @@
-FROM node:19.3.0 as frontend-build
+FROM node:19.3.0 as build
 
 WORKDIR /app
 
