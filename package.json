@@ -1,0 +1,32 @@
+{
+  "name": "mustached-curricula",
+  "version": "1.0.0",
+  "description": "A personal webpage generator based on handlebars (a mustache superset) templates and YAML data files.",
+  "main": "public/index.html",
+  "scripts": {
+    "build": "npm run build:en && npm run build:pt",
+    "build:en": "yaml2html index.mustache index_en.yaml > public/index.html",
+    "build:pt": "yaml2html index.mustache index_pt.yaml > public/index_pt.html",
+    "clean": "rimraf public/index_pt.html public/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N0NamedGuy/mustached-curricula.git"
+  },
+  "keywords": [
+    "personal",
+    "static",
+    "website",
+    "generator"
+  ],
+  "author": "David Serrano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/N0NamedGuy/mustached-curricula/issues"
+  },
+  "homepage": "https://github.com/N0NamedGuy/mustached-curricula#readme",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "yaml2html": "^0.1.0"
+  }
+}
