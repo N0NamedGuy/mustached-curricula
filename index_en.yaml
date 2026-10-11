@@ -95,7 +95,7 @@ portfolio:
 
           description: |
             I was in the
-            <a href="http://eventos.fct.unl.pt/expofct/pages/app-expo-fct">
+            <a href="https://web.archive.org/web/20130923235602/http://eventos.fct.unl.pt/expofct/pages/app-expo-fct">
             official</a> Expo FCT 2013 mobile web application
             development team.
 
@@ -125,11 +125,11 @@ portfolio:
 
           description: |
             A game that I made in 48 hours for a contest called
-            <a target="_blank" href="http://www.ludumdare.com/compo/">
+            <a target="_blank" href="https://web.archive.org/web/20130602001619/http://www.ludumdare.com/compo/">
             Ludum Dare</a>. It was based on the aMAZING
             engine, listed next. The game's submission page
             can be viewed <a target="_blank"
-            href="http://www.ludumdare.com/compo/ludum-dare-21/?action=preview&amp;uid=5344">
+            href="https://web.archive.org/web/20140714003356/http://www.ludumdare.com/compo/ludum-dare-21/?action=preview&amp;uid=5344">
             here</a>.
 
         - title: "aMAZING"
@@ -161,7 +161,7 @@ portfolio:
           button_text: "Play It"
 
         - title: "Residential Website"
-          url: &url "http://www.residencialnossoparaiso.com"
+          url: &url "https://web.archive.org/web/20131127174756/http://residencialnossoparaiso.com/main.php"
           duration: "August 2010"
           thumbs:
               - thumb: "nossop_1.png"
@@ -179,7 +179,7 @@ portfolio:
             and over the week I stayed there, I made them the
             website. It is (or at least was) hosted
             at <a target="_blank" class="no-print-link"
-            href="http://www.residencialnossoparaiso.com">
+            href="https://web.archive.org/web/20131127174756/http://residencialnossoparaiso.com/main.php">
             www.residencialnossoparaiso.com</a>.
 
           button_text: "Check it out"
@@ -213,7 +213,7 @@ awards:
               - title: "Presentation (YouTube Video)"
                 url: "https://www.youtube.com/watch?v=Tvj0HhOg5XI"
               - title: "Newspaper Article"
-                url: "http://blogues.publico.pt/tecnopolis/2008/11/10/sapo-codebits/"
+                url: "https://web.archive.org/web/20110520100519/http://blogues.publico.pt/tecnopolis/2008/11/10/sapo-codebits/"
 
         - title: |
             <abbr title="Concurso Jovens Cientistas e Investigadores">
@@ -226,9 +226,9 @@ awards:
                 title: "CJCI Logo"
           links:
               - title: "Contest Web page"
-                url: "http://www.fjuventude.pt/jcientistas2008/"
+                url: "https://web.archive.org/web/20130729121159/http://www.fjuventude.pt/jcientistas2008/"
               - title: "Classifications"
-                url: "http://www.fjuventude.pt/jcientistas2008/static/jc2008_premios.pdf"
+                url: "https://web.archive.org/web/20131107045820/http://www.fjuventude.pt/jcientistas2008/static/jc2008_premios.pdf"
 
 
     - row:
@@ -245,7 +245,7 @@ awards:
                 title: "CaparicaTuxz team members"
           links:
               - title: "Contest Web page"
-                url: "http://deei.fct.ualg.pt/MIUP2011/"
+                url: "https://web.archive.org/web/20131105202623/http://deei.fct.ualg.pt/MIUP2011/"
               - title: "Contest Pictures"
                 url: "https://picasaweb.google.com/117378416743894294578/MIUP2011?authkey=Gv1sRgCKqlz-W-nKfNPQ"
 
@@ -260,9 +260,9 @@ awards:
                 title: "CaparicaTuxz team members on SWERC 2011"
           links:
               - title: "Contest Web page"
-                url: "http://pc.fdi.ucm.es/swerc/"
+                url: "https://web.archive.org/web/20120310032809/http://pc.fdi.ucm.es/swerc/"
               - title: "Classifications"
-                url: "http://pc.fdi.ucm.es/swerc/Standings.html"
+                url: "https://web.archive.org/web/20120616063711/http://pc.fdi.ucm.es/swerc/Standings.html"
 
     - row:
         - title: |
@@ -277,9 +277,9 @@ awards:
                 title: "AsymptoticFunctor team members receiving the bronze medal"
           links:
               - title: "Contest Web page"
-                url: "http://miup2012.dcc.fc.up.pt/"
+                url: "https://web.archive.org/web/20131108024051/http://miup2012.dcc.fc.up.pt/"
               - title: "Classifications"
-                url: "http://miup2012.dcc.fc.up.pt/sessao/classification.html"
+                url: "https://web.archive.org/web/20131108025723/http://miup2012.dcc.fc.up.pt/sessao/classification.html"
 
         - title: |
             <abbr title="Southwest Regional Contest"><i>SWERC</i></abbr> 2012
@@ -292,9 +292,9 @@ awards:
                 title: "AsymptoticFunctor team members on SWERC 2012"
           links:
               - title: "Contest Web page"
-                url: "http://swerc.dsic.upv.es/"
+                url: "https://web.archive.org/web/20120726203821/http://swerc.dsic.upv.es/"
               - title: "Classifications"
-                url: "http://swerc.dsic.upv.es/resultados/public/index.html"
+                url: "https://web.archive.org/web/20130715114216/http://swerc.dsic.upv.es/resultados2012/public/index.html"
 
 footer:
     copyright: 2013 David Miguel de Araújo Serrano
